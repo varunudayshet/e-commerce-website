@@ -1,12 +1,24 @@
-# React + Vite
+# Frinder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frinder is a modern e-commerce platform that provides a seamless shopping experience with advanced filtering, a responsive design, and a user-friendly interface.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frinder allows users to browse products, view detailed information, add items to their cart, and complete purchases. It supports mock data for development and integrates with a backend API for production.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Product Listing**: Browse products with category and price filters.
+- **Product Details**: View detailed information, including ratings and reviews.
+- **Shopping Cart**: Add, update, and remove items with real-time updates.
+- **Checkout**: Complete purchases with a simple checkout process.
+- **Responsive Design**: Optimized for desktop and mobile devices.
+- **Mock API Support**: Switch between mock data and live API seamlessly.
+
+## Tech Stack
+
+- **Frontend**: React, React Router
+- **State Management**: Context API
+- **Build Tool**: Vite
+- **Styling**: CSS with responsive design
+- **Mock Data**: Simulated API responses for development
